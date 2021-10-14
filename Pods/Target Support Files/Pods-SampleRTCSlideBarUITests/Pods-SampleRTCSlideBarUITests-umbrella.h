@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_SampleRTCSlideBar_SampleRTCSlideBarUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_SampleRTCSlideBar_SampleRTCSlideBarUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_SampleRTCSlideBarUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_SampleRTCSlideBarUITestsVersionString[];
 

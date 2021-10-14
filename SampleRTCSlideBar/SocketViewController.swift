@@ -9,15 +9,18 @@
 import UIKit
 import SocketIO
 
+enum EventName: String {
+    case changeSlider
+}
+
 class SocketViewController: UIViewController {
 
-    @IBOutlet var labelStackView: UIStackView!
     @IBOutlet var label: UILabel!
     @IBOutlet var slider: UISlider!
     
     let manager = SocketManager(
-        socketURL: URL(string: "http://localhost:3000")!,
-        config: [.log(false), .compress, .forceNew(true)]
+        socketURL: URL(string: "http://localhost:8080")!,
+        config: [.log(true)]
     )
     var socket: SocketIOClient!
     
@@ -26,14 +29,11 @@ class SocketViewController: UIViewController {
         
         socket = manager.defaultSocket
         
-        socket.on(clientEvent: .connect) { (obj, emitter) in
+        socket.on(clientEvent: SocketClientEvent.connect) { (obj, emitter) in
             print("connect")
         }
         
-        socket.on("sliderValue") { [weak self] (obj, emitter) in
-            print("sliderValue detected")
-            print(obj)
-            
+        socket.on(EventName.changeSlider.rawValue) { [weak self] (obj, emitter) in
             let value = obj[0] as! Float
             self?.slider.setValue(value, animated: true)
             self?.label.text = String(value)
@@ -43,7 +43,7 @@ class SocketViewController: UIViewController {
     }
     
     @IBAction func sliderValueChaged(slider: UISlider) {
-        socket.emit("sliderValue", [0])
+        socket.emit(EventName.changeSlider.rawValue, [slider.value])
     }
 }
 

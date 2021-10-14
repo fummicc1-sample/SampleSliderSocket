@@ -1,5 +1,6 @@
 const http = require("http");
-const server = http.createServer();
+const server = http.createServer((req, res) => {
+});
 
 // socketioの準備
 const io = require('socket.io')(server);
@@ -13,10 +14,15 @@ io.on('connection', (socket) => {
         console.log("client disconnected!!")
     });
 
-    socket.on("sliderValue", (obj) => {
+    socket.on("changeSlider", (obj) => {
         console.log(obj)
-        socket.broadcast.emit("sliderValue", obj)
+        const value = obj[0]
+        console.log(typeof value)
+        if (typeof value === "number") {
+            io.sockets.emit("changeSlider", obj[0])
+            console.log("Number")
+        }        
     })
 });
 
-server.listen(3000);
+server.listen(8080);
