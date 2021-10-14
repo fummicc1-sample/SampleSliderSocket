@@ -20,7 +20,6 @@ io.on('connection', (socket) => {
         console.log(typeof value)
         if (typeof value === "number") {
             io.sockets.emit("changeSlider", obj[0])
-            console.log("Number")
         }        
     })
 });
