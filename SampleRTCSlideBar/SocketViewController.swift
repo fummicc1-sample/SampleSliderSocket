@@ -17,7 +17,7 @@ class SocketViewController: UIViewController {
     
     let manager = SocketManager(
         socketURL: URL(string: "http://localhost:3000")!,
-        config: [.log(true), .compress, .forceNew(true)]
+        config: [.log(false), .compress, .forceNew(true)]
     )
     var socket: SocketIOClient!
     
@@ -37,11 +37,6 @@ class SocketViewController: UIViewController {
             let value = obj[0] as! Float
             self?.slider.setValue(value, animated: true)
             self?.label.text = String(value)
-        }
-        
-        socket.on(clientEvent: .statusChange) { data, ack in
-            print(data)
-            print(ack)
         }
         
         socket.connect()

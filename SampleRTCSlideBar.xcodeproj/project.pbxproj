@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D34939152717A94D0069ADEF /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = D34939142717A94D0069ADEF /* SocketIO */; };
+		37E631ECF98063200CBD83BD /* Pods_SampleRTCSlideBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A73FABA0B85594B9A062DB /* Pods_SampleRTCSlideBarTests.framework */; };
+		48DBFB029C17C9A959CAFF7B /* Pods_SampleRTCSlideBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A8BE07EB8F3E24D776877C /* Pods_SampleRTCSlideBar.framework */; };
+		50B1B324F23CE3B1D29AFB53 /* Pods_SampleRTCSlideBar_SampleRTCSlideBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA63A40D414F7BD98EC503B8 /* Pods_SampleRTCSlideBar_SampleRTCSlideBarUITests.framework */; };
 		D350CCCA221E75EE0047A9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350CCC9221E75EE0047A9C8 /* AppDelegate.swift */; };
 		D350CCCC221E75EE0047A9C8 /* SocketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D350CCCB221E75EE0047A9C8 /* SocketViewController.swift */; };
 		D350CCCF221E75EE0047A9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D350CCCD221E75EE0047A9C8 /* Main.storyboard */; };
@@ -35,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06A73FABA0B85594B9A062DB /* Pods_SampleRTCSlideBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleRTCSlideBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2B2CAF1D523AA8B7FBAD9E /* Pods-SampleRTCSlideBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRTCSlideBar.debug.xcconfig"; path = "Target Support Files/Pods-SampleRTCSlideBar/Pods-SampleRTCSlideBar.debug.xcconfig"; sourceTree = "<group>"; };
+		3768D53C7288EC4BB1BE5506 /* Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59A8BE07EB8F3E24D776877C /* Pods_SampleRTCSlideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleRTCSlideBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA67CFC771F7AAD9E3FAF6F /* Pods-SampleRTCSlideBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRTCSlideBarTests.release.xcconfig"; path = "Target Support Files/Pods-SampleRTCSlideBarTests/Pods-SampleRTCSlideBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9D38BECA9993D7D0F2D7DC4 /* Pods-SampleRTCSlideBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRTCSlideBar.release.xcconfig"; path = "Target Support Files/Pods-SampleRTCSlideBar/Pods-SampleRTCSlideBar.release.xcconfig"; sourceTree = "<group>"; };
 		D350CCC6221E75EE0047A9C8 /* SampleRTCSlideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRTCSlideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D350CCC9221E75EE0047A9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D350CCCB221E75EE0047A9C8 /* SocketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +56,9 @@
 		D350CCE5221E75EF0047A9C8 /* SampleRTCSlideBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleRTCSlideBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D350CCE9221E75EF0047A9C8 /* SampleRTCSlideBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleRTCSlideBarUITests.swift; sourceTree = "<group>"; };
 		D350CCEB221E75EF0047A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88F684378FC7C00CBACB7B5 /* Pods-SampleRTCSlideBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRTCSlideBarTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleRTCSlideBarTests/Pods-SampleRTCSlideBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F63D4224F7C650A2DFEF9FCB /* Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA63A40D414F7BD98EC503B8 /* Pods_SampleRTCSlideBar_SampleRTCSlideBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleRTCSlideBar_SampleRTCSlideBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34939152717A94D0069ADEF /* SocketIO in Frameworks */,
+				48DBFB029C17C9A959CAFF7B /* Pods_SampleRTCSlideBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E631ECF98063200CBD83BD /* Pods_SampleRTCSlideBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B1B324F23CE3B1D29AFB53 /* Pods_SampleRTCSlideBar_SampleRTCSlideBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4BEB22BC10F7DA9315023D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59A8BE07EB8F3E24D776877C /* Pods_SampleRTCSlideBar.framework */,
+				FA63A40D414F7BD98EC503B8 /* Pods_SampleRTCSlideBar_SampleRTCSlideBarUITests.framework */,
+				06A73FABA0B85594B9A062DB /* Pods_SampleRTCSlideBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B766359D69CF31C27336664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A2B2CAF1D523AA8B7FBAD9E /* Pods-SampleRTCSlideBar.debug.xcconfig */,
+				B9D38BECA9993D7D0F2D7DC4 /* Pods-SampleRTCSlideBar.release.xcconfig */,
+				3768D53C7288EC4BB1BE5506 /* Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.debug.xcconfig */,
+				F63D4224F7C650A2DFEF9FCB /* Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.release.xcconfig */,
+				D88F684378FC7C00CBACB7B5 /* Pods-SampleRTCSlideBarTests.debug.xcconfig */,
+				9AA67CFC771F7AAD9E3FAF6F /* Pods-SampleRTCSlideBarTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D350CCBD221E75EE0047A9C8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				D350CCDD221E75EF0047A9C8 /* SampleRTCSlideBarTests */,
 				D350CCE8221E75EF0047A9C8 /* SampleRTCSlideBarUITests */,
 				D350CCC7221E75EE0047A9C8 /* Products */,
+				6B766359D69CF31C27336664 /* Pods */,
+				1B4BEB22BC10F7DA9315023D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,18 +173,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D350CCEE221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBar" */;
 			buildPhases = (
+				622CCA285F73D3A13D41CF7F /* [CP] Check Pods Manifest.lock */,
 				D350CCC2221E75EE0047A9C8 /* Sources */,
 				D350CCC3221E75EE0047A9C8 /* Frameworks */,
 				D350CCC4221E75EE0047A9C8 /* Resources */,
+				544C1D8DCB6F238ACBDBD95A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SampleRTCSlideBar;
-			packageProductDependencies = (
-				D34939142717A94D0069ADEF /* SocketIO */,
-			);
 			productName = SampleRTCSlideBar;
 			productReference = D350CCC6221E75EE0047A9C8 /* SampleRTCSlideBar.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D350CCF1221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBarTests" */;
 			buildPhases = (
+				0CD36BAA39754FE36042FADA /* [CP] Check Pods Manifest.lock */,
 				D350CCD6221E75EF0047A9C8 /* Sources */,
 				D350CCD7221E75EF0047A9C8 /* Frameworks */,
 				D350CCD8221E75EF0047A9C8 /* Resources */,
@@ -172,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D350CCF4221E75EF0047A9C8 /* Build configuration list for PBXNativeTarget "SampleRTCSlideBarUITests" */;
 			buildPhases = (
+				0FB3F616F144E4A73509ADFF /* [CP] Check Pods Manifest.lock */,
 				D350CCE1221E75EF0047A9C8 /* Sources */,
 				D350CCE2221E75EF0047A9C8 /* Frameworks */,
 				D350CCE3221E75EF0047A9C8 /* Resources */,
+				E8561252ABDD58D5A70F4B58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,9 +259,6 @@
 				Base,
 			);
 			mainGroup = D350CCBD221E75EE0047A9C8;
-			packageReferences = (
-				D34939132717A94D0069ADEF /* XCRemoteSwiftPackageReference "socket" */,
-			);
 			productRefGroup = D350CCC7221E75EE0047A9C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CD36BAA39754FE36042FADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleRTCSlideBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FB3F616F144E4A73509ADFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		544C1D8DCB6F238ACBDBD95A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleRTCSlideBar/Pods-SampleRTCSlideBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleRTCSlideBar/Pods-SampleRTCSlideBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleRTCSlideBar/Pods-SampleRTCSlideBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622CCA285F73D3A13D41CF7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleRTCSlideBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8561252ABDD58D5A70F4B58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests/Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D350CCC2221E75EE0047A9C8 /* Sources */ = {
@@ -438,6 +579,7 @@
 		};
 		D350CCEF221E75EF0047A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2B2CAF1D523AA8B7FBAD9E /* Pods-SampleRTCSlideBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +598,7 @@
 		};
 		D350CCF0221E75EF0047A9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D38BECA9993D7D0F2D7DC4 /* Pods-SampleRTCSlideBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +617,7 @@
 		};
 		D350CCF2221E75EF0047A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88F684378FC7C00CBACB7B5 /* Pods-SampleRTCSlideBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +639,7 @@
 		};
 		D350CCF3221E75EF0047A9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA67CFC771F7AAD9E3FAF6F /* Pods-SampleRTCSlideBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +661,7 @@
 		};
 		D350CCF5221E75EF0047A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3768D53C7288EC4BB1BE5506 /* Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +682,7 @@
 		};
 		D350CCF6221E75EF0047A9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63D4224F7C650A2DFEF9FCB /* Pods-SampleRTCSlideBar-SampleRTCSlideBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -594,25 +741,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		D34939132717A94D0069ADEF /* XCRemoteSwiftPackageReference "socket" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/socketio/socket.io-client-swift";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D34939142717A94D0069ADEF /* SocketIO */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D34939132717A94D0069ADEF /* XCRemoteSwiftPackageReference "socket" */;
-			productName = SocketIO;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D350CCBE221E75EE0047A9C8 /* Project object */;
 }
